@@ -29,14 +29,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
-
+Extend the react component. Set the state to an object of whatever you need your state for and then render what is needed in JSX
 2. Describe the different phases of the component lifecycle.
-
+Initialization - Define defaults and initial values for this.props and this.state
+Mounting - Inserting a component into the DOM
+Updating - Execute code with updated state and props
+Unmounting - Removing component from the DOM and cleaning up. 
 3. Demonstrate an understanding of class component lifecycle methods.
-
+Initialization - Define defaults and initial values for this.props and this.state
+Mounting - Inserting a component into the DOM
+Updating - Execute code with updated state and props
+Unmounting - Removing component from the DOM and cleaning up. 
 4. Define stateful logic.
-
+Any code using state and hooks. It is a behavior created when using one or more hooks. 
 5. Describe how to test a React component with React Testing Library.
+You point your tests at each individual field, tell the test what to write/do and then tell it to check to see if the fields reacted the way that you expected it to. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
